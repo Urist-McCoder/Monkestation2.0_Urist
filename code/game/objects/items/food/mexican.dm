@@ -170,6 +170,7 @@
 	tastes = list("hot peppers" = 1, "meat" = 3, "cheese" = 1, "sour cream" = 1)
 	foodtypes = MEAT | GRAIN
 	w_class = WEIGHT_CLASS_SMALL
+	food_buffs = STATUS_EFFECT_FOOD_BURN_RESISTANCE
 
 /obj/item/food/stuffedlegion
 	name = "stuffed legion"
@@ -185,6 +186,7 @@
 	foodtypes = MEAT
 	w_class = WEIGHT_CLASS_SMALL
 	venue_value = FOOD_PRICE_LEGENDARY
+	food_buffs = STATUS_EFFECT_FOOD_BURN_RESISTANCE
 
 /obj/item/food/chipsandsalsa
 	name = "chips and salsa"
@@ -199,6 +201,7 @@
 	tastes = list("peppers" = 1, "salsa" = 3, "tortilla chips" = 1, "onion" = 1)
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
+	food_buffs = STATUS_EFFECT_FOOD_BURN_RESISTANCE
 
 /obj/item/food/classic_chimichanga
 	name = "classic chimichanga"
@@ -317,3 +320,4 @@
 	tastes = list("pineapple" = 4, "tomato" = 3, "onion" = 2, "chili" = 2)
 	foodtypes = VEGETABLES | FRUIT | PINEAPPLE
 	w_class = WEIGHT_CLASS_SMALL
+	food_buffs = STATUS_EFFECT_FOOD_BURN_RESISTANCE
