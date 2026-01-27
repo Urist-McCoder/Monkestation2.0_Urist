@@ -1,6 +1,8 @@
 ///FOOD DEFINES
 #define STATUS_EFFECT_FOOD_RESISTANCE /datum/status_effect/food/resistance
 
+#define STATUS_EFFECT_FOOD_BURN_RESISTANCE /datum/status_effect/food/burn_resistance
+
 #define STATUS_EFFECT_FOOD_FIREBURPS /datum/status_effect/food/fire_burps
 
 #define STATUS_EFFECT_FOOD_SWEATY /datum/status_effect/food/sweaty
