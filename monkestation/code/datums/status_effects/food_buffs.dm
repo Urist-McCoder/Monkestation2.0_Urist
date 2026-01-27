@@ -272,6 +272,29 @@
 		user.stamina.regen_rate += regen_increase
 
 
+/datum/status_effect/food/burn_resistance
+	id = "burn_resistance_food"
+	alert_type = /atom/movable/screen/alert/status_effect/food/burn_resistance
+
+/atom/movable/screen/alert/status_effect/food/burn_resistance
+	name = "burn resistance"
+	desc = "Slightly decreases burn damage taken"
+	icon_state = "fire"
+
+/datum/status_effect/food/burn_resistance/on_apply()
+	if(ishuman(owner))
+		var/mob/living/carbon/user = owner
+		for(var/obj/item/bodypart/limbs in user.bodyparts)
+			limbs.burn_modifier -= 0.2
+	return ..()
+
+/datum/status_effect/food/burn_resistance/on_remove()
+	. = ..()
+	if(ishuman(owner))
+		var/mob/living/carbon/user = owner
+		for(var/obj/item/bodypart/limbs in user.bodyparts)
+			limbs.burn_modifier += 0.2
+
 /////JOB BUFFS
 
 /datum/status_effect/food/botanist
