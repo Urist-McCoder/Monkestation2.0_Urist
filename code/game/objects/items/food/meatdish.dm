@@ -181,6 +181,7 @@
 	tastes = list("boiled rice" = 4, "fish" = 2, "spicyness" = 2)
 	foodtypes = VEGETABLES | SEAFOOD
 	w_class = WEIGHT_CLASS_SMALL
+	food_buffs = STATUS_EFFECT_FOOD_BURN_RESISTANCE
 
 /obj/item/food/spicyfiletsushiroll/make_processable()
 	AddElement(/datum/element/processable, TOOL_KNIFE, /obj/item/food/spicyfiletsushislice, 4, screentip_verb = "Chop")
@@ -634,6 +635,7 @@
 	foodtypes = MEAT
 	w_class = WEIGHT_CLASS_SMALL
 	burns_on_grill = TRUE
+	food_buffs = STATUS_EFFECT_FOOD_BURN_RESISTANCE
 
 /obj/item/food/spidereggsham
 	name = "green eggs and ham"
@@ -664,6 +666,7 @@
 	w_class = WEIGHT_CLASS_TINY
 	//total price of this dish is 20 and a small amount more for soy sauce, all of which are available at the orders console
 	venue_value = FOOD_PRICE_CHEAP
+	food_buffs = STATUS_EFFECT_FOOD_BURN_RESISTANCE
 
 /obj/item/food/sashimi/Initialize(mapload)
 	. = ..()
