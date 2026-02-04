@@ -93,6 +93,7 @@
 	foodtypes = MEAT | VEGETABLES | GORE
 	trash_type = /obj/item/reagent_containers/cup/bowl
 	w_class = WEIGHT_CLASS_SMALL
+	food_buffs = STATUS_EFFECT_FOOD_BURN_RESISTANCE
 
 /obj/item/food/tsatsikh
 	name = "tsatsikh"
@@ -242,6 +243,7 @@
 	tastes = list("meat" = 1, "sweet" = 1, "heat" = 1)
 	foodtypes = GORE | MEAT | BUGS
 	w_class = WEIGHT_CLASS_SMALL
+	food_buffs = STATUS_EFFECT_FOOD_BURN_RESISTANCE
 
 /obj/item/food/mushroomy_stirfry
 	name = "mushroomy stirfry"
