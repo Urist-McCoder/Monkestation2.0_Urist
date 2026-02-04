@@ -11,6 +11,7 @@
 	tastes = list("spicy cabbage" = 1)
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
+	food_buffs = STATUS_EFFECT_FOOD_BURN_RESISTANCE
 
 /obj/item/food/inferno_kimchi
 	name = "inferno kimchi"
@@ -24,6 +25,7 @@
 	tastes = list("very spicy cabbage" = 1)
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
+	food_buffs = STATUS_EFFECT_FOOD_BURN_RESISTANCE
 
 /obj/item/food/garlic_kimchi
 	name = "garlic kimchi"
@@ -38,6 +40,7 @@
 	tastes = list("spicy cabbage" = 1, "garlic" = 1)
 	foodtypes = VEGETABLES
 	w_class = WEIGHT_CLASS_SMALL
+	food_buffs = STATUS_EFFECT_FOOD_BURN_RESISTANCE
 
 /obj/item/food/surimi
 	name = "surimi"
